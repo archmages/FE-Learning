@@ -1,0 +1,89 @@
+#header {
+    text-align: right;
+}
+
+#header a {
+    color: #555;
+    font-family: Arial;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#header a.no-weight {
+    font-weight: normal;
+}
+
+#header a.more_product {
+    width: 65px;
+    height: 20px;
+    display: inline-block;
+    color: white;
+    background: #398bfb;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px;
+    border: 1px solid #398bfb;
+}
+
+#content {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 450px;
+}
+
+#content img {
+    width: 270px;
+    height: 129px;
+}
+
+#content input {
+    width: 521px;
+    height: 25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 16px;
+    font-family: Arial;
+    box-shadow: none;
+    border: 1px solid #b8b8b8;
+    outline: none;
+}
+
+#content input:focus {
+    border-color: #77d2c5;
+}
+
+#content a {
+    background: #398bfb;
+    border: 1px solid #398bfb;
+    width: 100px;
+    height: 32px;
+    line-height: 32px;
+    display: inline-block;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: -5px;
+}
+
+#footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+#footer .footer-top {
+    margin-bottom: 10px;
+}
+
+#footer .footer-top a {
+    color: #00c;
+    margin: 0px 5px;
+}
+
+#footer .footer-bottom a {
+    color: #00c;
+    margin: 0px 5px;
+}
