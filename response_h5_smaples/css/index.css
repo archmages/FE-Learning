@@ -1,0 +1,100 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: darkslateblue;
+}
+
+#header {
+    background-color: red;
+    height: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+#nav {
+    text-align: center;
+}
+
+#nav ul {
+    display: inline-block;
+}
+
+#nav ul li {
+    float: left;;
+}
+
+#nav ul li a {
+    margin-left: 20px;
+    color: white;
+    width: 100px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#nav ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+#nav ul li a.selected {
+    background-color: white;
+    color: black;
+}
+
+#list {
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#list .dog {
+    width: 382px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+#list .dog img {
+    width: 382px;
+    height: 100px;
+    resize: vertical;
+}
+
+#list .dog .dog1 {
+    background-image: url("../img/meizi_02.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#list .dog p {
+    color: #999;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+#list .dog a {
+    background-color: #c0392b;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    width: 170px;
+    height:40px;
+    text-align: center;
+    line-height:40px;
+    margin-bottom: 5px;
+}
+
+#list .dog a:hover {
+    background-color: black;
+    color: white;
+}
